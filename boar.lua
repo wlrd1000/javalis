@@ -153,7 +153,7 @@ function Library:Create(tab)
     function Window:AddButton(Text)
         local Button = Instance.new('Frame')
         local Button_2 = Instance.new('TextButton')
-        local UIStroke = Instance.new('UStroke')
+        local UIStroke = Instance.new('UIStroke')
         local UITextSizeConstraint = Instance.new('UITextSizeConstraint')
 
         Button.Name = 'Button'
